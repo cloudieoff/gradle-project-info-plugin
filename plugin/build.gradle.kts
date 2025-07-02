@@ -2,7 +2,6 @@ plugins {
     `java-gradle-plugin`
     `maven-publish`
     kotlin("jvm") version "1.9.0" // Для Kotlin поддержки
-    id("com.yourname.projectinfo") version "1.0.0" // Должен совпадать с id в плагине
 }
 
 // Убедитесь, что group и version указаны ДО блока gradlePlugin
